@@ -18,3 +18,70 @@
 ## Notes
 - Always check `git status` before committing.
 - Use meaningful commit messages.
+
+## Git Branching (Important)
+
+### Create a new branch
+```
+git branch feature-login
+```
+
+### Switch to a branch
+```
+git checkout feature-login
+```
+
+### Create + switch (shortcut)
+```
+git checkout -b feature-login
+```
+
+### Merge a branch into main
+```
+git checkout main
+git merge feature-login
+```
+
+### Delete a branch
+```
+git branch -d feature-login
+```
+
+### Notes
+- Always create new features in separate branches.
+- Never commit directly to `main`.
+- Use pull requests for clean workflow.
+```
+## Git Branching (Important)
+
+### Create a new branch
+```
+git branch feature-login
+```
+
+### Switch to a branch
+```
+git checkout feature-login
+```
+
+### Create + switch (shortcut)
+```
+git checkout -b feature-login
+```
+
+### Merge a branch into main
+```
+git checkout main
+git merge feature-login
+```
+
+### Delete a branch
+```
+git branch -d feature-login
+```
+
+### Notes
+- Always create new features in separate branches.
+- Never commit directly to `main`.
+- Use pull requests for clean workflow.
+```
